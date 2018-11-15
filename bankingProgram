@@ -1,0 +1,22 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+struct PersonData
+{
+  string firstName;
+  string lastName;
+  string accountNumber;
+};
+
+
+
+int main()
+{
+  PersonData Person;
+  cout << "Enter first & last name and account number" << endl;
+  cin >> Person.firstName;
+  cin >> Person.lastName;
+  cin >> Person.accountNumber;
+  
